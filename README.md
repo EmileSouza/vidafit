@@ -1,38 +1,31 @@
-# vidafit
+# VidaFit
 
-This template should help get you started developing with Vue 3 in Vite.
+VidaFit é uma landing page de apresentação para um aplicativo de fitness em casa. O projeto foca em layout responsivo, login visual e uso de componentes Vue 3 com Vuetify.
 
-## Recommended IDE Setup
+## Tecnologias utilizadas
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- Vite
+- Vuetify 4
+- JavaScript
+- HTML
+- CSS
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Como rodar o projeto
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Funcionalidades principais
 
-```sh
-npm run build
-```
+- Layout responsivo com seção de destaque (hero)
+- Cartão de login visual com campos de e-mail e senha
+- Integração com Vuetify para componentes UI
+- Tema de cores personalizado usando `chroma-js`
+
+## Observações
+
+- O login atual é um protótipo visual e apenas registra os valores no console.
+- O projeto já está configurado para build com Vite.
