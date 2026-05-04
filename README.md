@@ -1,38 +1,62 @@
-# vidafit
+ # 💪 VidaFit - Landing Page Fitness (Interface Vuetify)
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto de interface para uma plataforma de fitness doméstico. Desenvolvido com foco em **UI/UX responsiva**, utilizando a biblioteca de componentes **Vuetify 4** e personalização de temas com **Chroma.js**.
 
-## Recommended IDE Setup
+> 🎯 **Objetivo:** Aplicar conceitos de Material Design em Vue.js, criar layouts responsivos e gerenciar estados de formulários visuais.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🛠️ Tecnologias Utilizadas
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+| Tecnologia | Uso |
+|:---|:---|
+| **Vue.js 3** | Core do Framework (Composition API) |
+| **Vuetify 4** | Biblioteca de componentes UI (Material Design) |
+| **Vite** | Build tool e bundler |
+| **Chroma.js** | Manipulação e geração de paleta de cores dinâmica |
+| **CSS3 / SCSS** | Estilização e ajustes finos |
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Funcionalidades da Interface
 
-## Project Setup
+### 🎨 Design System & Layout
+- ✅ Grid System responsivo do Vuetify (Mobile, Tablet, Desktop)
+- ✅ Seção Hero com chamadas visuais de alta conversão
+- ✅ Cartão de Login/Registro com validação visual de campos
+- ✅ Tipografia e espaçamentos padronizados
 
-```sh
+### 🎨 Personalização de Tema
+- ✅ Uso do `chroma.js` para gerar variações de cores e manter consistência visual
+- ✅ Tema azul personalizado (Custom Theme Provider)
+- ✅ Componentes estilizados com props nativas do Vuetify
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### Pré-requisitos
+- Node.js `v18+` ou superior
+- npm ou yarn
+
+### Passo a Passo
+```bash
+# 1. Clone o repositório
+git clone https://github.com/EmileSouza/vidafit.git
+
+# 2. Acesse a pasta do projeto
+cd vidafit
+
+# 3. Instale as dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# 5. (Opcional) Build para produção
 npm run build
-```
+npm run preview
+
+
+
+🔗 [LinkedIn](https://www.linkedin.com/in/emile-isadora) | 🐙 [GitHub](https://github.com/EmileSouza)
