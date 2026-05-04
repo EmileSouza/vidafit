@@ -58,5 +58,4 @@ npm run build
 npm run preview
 
 
-
-🔗 [LinkedIn](https://www.linkedin.com/in/emile-isadora) | 🐙 [GitHub](https://github.com/EmileSouza)
+ 
